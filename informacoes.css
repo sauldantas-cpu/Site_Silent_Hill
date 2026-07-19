@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: "Times New Roman", Times, Serif;
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+}
+
+.imagens {
+    display: inline
+}
+
+.imagens figcaption {
+    color: white
+}

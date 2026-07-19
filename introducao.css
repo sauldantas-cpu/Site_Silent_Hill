@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h2 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 150px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: "Times New Roman", Times, Serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+
+.texto {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.fundo>a {
+    font-size: 25px;
+}
+
+.menu {
+    position: absolute;
+    top: 30px;
+    list-style: none;
+    border: 1px solid white;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid white;
+}
+
+.menu li a{
+    color: white;
+    padding: 5px;
+}
+
+.menu li a:hover {
+    color: red;
+    background-color: white;
+}
